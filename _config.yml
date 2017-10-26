@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Kylie's blog
 locale: en_US
-description: Describe your website here.
+description: Exploring | Discovering | Designing
 logo: site-logo.png
 search: true
 url: https://leyankoh.github.io/kylie-blog.github.io
