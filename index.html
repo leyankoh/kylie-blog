@@ -1,12 +1,21 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
-search_omit: true
+title: About the Jekyll Theme
+excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+modified: 2014-08-08T19:44:38.564948-04:00
+image:
+  feature: so-simple-sample-image-4.jpg
+  credit: #WeGraphics
+  creditlink: #http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
+Hi! I'm Kylie, or Le Yan.
+
+I'm just testing out this page.
+## My blog is about:
+
+*I'm testing out a space I can use to design a data science blog!
+
+<a markdown="0" href="{{ site.url }}/blog" class="btn">Here's my blog!</a>
+
+[^1]: Example: *domain.com/category-name/post-title*
